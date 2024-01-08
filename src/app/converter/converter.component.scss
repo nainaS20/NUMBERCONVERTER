@@ -1,0 +1,47 @@
+/* Add styles for the container */
+.container {
+    text-align: center;
+    margin-top: 50px; /* Add some top margin for better visual appearance */
+  }
+  
+  /* Style for the box enclosing the input div */
+  #inputBox {
+    border: 2px solid #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px; /* Set the desired width */
+    margin: 0 auto; /* Center the box horizontally */
+  }
+  
+  /* Style for the input div */
+  #input {
+    text-align: center;
+  }
+  
+  /* Style for the input area */
+  #text {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+  }
+  
+  /* Style for the Convert button */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the output div */
+  #output {
+    margin-top: 20px;
+  }
+  
+  /* Style for the result paragraph */

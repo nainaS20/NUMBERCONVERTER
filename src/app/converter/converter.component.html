@@ -1,0 +1,17 @@
+<div class="container">
+    <div id="inputBox">
+      <div id="input">
+        <label for="numberInput">Enter a number:</label><br>
+        <!-- Use [(ngModel)] for two-way data binding -->
+        <br>
+        <input id="text" type="number" id="numberInput" [(ngModel)]="inputValue" /><br>
+        <br>
+        <button (click)="convertToWords()">Convert</button>
+      </div>
+    </div>
+  
+    <div id="output" *ngIf="outputText">
+      <p>Input text in words: {{ outputText }}</p>
+    </div>
+  </div>
+  
